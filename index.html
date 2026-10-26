@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yugansh Joshi | Frontend Developer</title>
+    <meta name="description"
+        content="Yugansh Joshi is a frontend developer building modern, responsive, and high-converting websites for businesses." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div class="page-loader" id="page-loader" aria-hidden="true">
+        <div class="loader-ring"></div>
+    </div>
+
+    <!-- Background Glow --> 
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <!-- Header -->
+    <header class="site-header" id="header">
+
+        <div class="container">
+
+            <nav class="navbar" aria-label="Main navigation">
+                <a href="#home" class="logo">Yugansh.</a>
+
+                <ul class="nav-links" id="nav-links">
+
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+
+                    <li class="mobile-socials">
+
+                        <a href="https://github.com/YuganshJoshi" target="_blank" rel="noopener noreferrer">
+                            GitHub
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/yugansh-joshi-0387b8365" target="_blank"
+                            rel="noopener noreferrer">
+                            LinkedIn
+                        </a>
+
+                    </li>
+                </ul>
+
+                <div class="nav-right">
+
+                    <div class="social-icons desktop-socials">
+
+                        <a href="https://github.com/YuganshJoshi" target="_blank" rel="noopener noreferrer"
+                            aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.111.793-.261.793-.577V20.6c-3.338.726-4.034-1.416-4.034-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.744.084-.729.084-.729 1.205.084 1.838 1.237 1.838 1.237 1.07 1.834 2.809 1.304 3.495.997.108-.776.418-1.305.762-1.604-2.665-.304-5.467-1.334-5.467-5.931 0-1.311.468-2.381 1.236-3.221-.124-.304-.536-1.525.117-3.176 0 0 1.008-.323 3.301 1.23A11.53 11.53 0 0 1 12 6.844c1.02.005 2.047.138 3.006.404 2.291-1.553 3.298-1.23 3.298-1.23.653 1.651.241 2.872.118 3.176.77.84 1.236 1.91 1.236 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.103.823 2.223v3.293c0 .319.192.694.8.576C20.565 21.796 24 17.3 24 12 24 5.373 18.627 0 12 0Z" />
+                            </svg>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/yugansh-joshi-0387b8365" target="_blank"
+                            rel="noopener noreferrer" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M20.447 20.452H16.89V14.87c0-1.331-.026-3.043-1.854-3.043-1.854 0-2.138 1.448-2.138 2.947v5.678H9.341V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.369-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286ZM5.337 7.433a2.063 2.063 0 1 1 0-4.126 2.063 2.063 0 0 1 0 4.126ZM7.116 20.452H3.558V9h3.558v11.452ZM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.226.792 24 1.771 24h20.454C23.2 24 24 23.226 24 22.271V1.729C24 .774 23.2 0 22.225 0Z" />
+                            </svg>
+                        </a>
+                    </div>
+
+                    <button class="hamburger" id="hamburger" type="button" aria-label="Toggle menu"
+                        aria-expanded="false" aria-controls="nav-links">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section id="home" class="hero section-offset">
+
+            <div class="container hero-grid">
+
+                <div class="hero-content reveal">
+
+                    <span class="eyebrow">Hey, I’m Yugansh 👋</span>
+                    <h1 class="hero-title">
+                        <span class="accent-text">Frontend</span>
+                        <span>Developer</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        I build modern, high-converting websites.
+                    </p>
+
+                    <p class="hero-subtext">
+                        Helping startups and small businesses create fast, responsive, and
+                        visually appealing websites.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary">Contact me</a>
+                        <a href="#projects" class="btn btn-secondary">Browse Projects</a>
+                    </div>
+
+                    <div class="hero-meta">
+                        <div class="meta-pill">
+                            <span class="meta-label">Based in</span>
+                            <span class="meta-value">India</span>
+                        </div>
+
+                        <div class="meta-pill">
+                            <span class="meta-label">Focus</span>
+                            <span class="meta-value">Responsive Frontend</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal reveal-delay-1">
+                    <div class="hero-image-wrap">
+                        <div class="hero-image-glow"></div>
+                        <img src="Profile-image.png" alt="Portrait of Yugansh Joshi" class="hero-image" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Live Weather -->
+        <section id="weather" class="weather-section" aria-labelledby="weather-heading">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="section-kicker">Live Weather</span>
+                    <h2 class="section-title" id="weather-heading">Current conditions</h2>
+                    <p class="section-subtitle">
+                        Real-time forecast from Open-Meteo, styled to match this site.
+                    </p>
+                </div>
+
+                <article class="weather-card reveal" id="weather-card" aria-live="polite">
+                    <div class="weather-status" id="weather-status">
+                        <span class="weather-loader" aria-hidden="true"></span>
+                        <p>Fetching live weather…</p>
+                    </div>
+
+                    <div class="weather-content is-hidden" id="weather-content">
+                        <div class="weather-main">
+                            <div class="weather-icon-wrap" aria-hidden="true">
+                                <span class="weather-emoji" id="weather-emoji">⛅</span>
+                            </div>
+                            <div>
+                                <p class="weather-location" id="weather-location">Berlin</p>
+                                <p class="weather-condition" id="weather-condition">—</p>
+                                <p class="weather-temp" id="weather-temp">—</p>
+                            </div>
+                        </div>
+
+                        <div class="weather-meta">
+                            <div class="weather-pill">
+                                <span class="meta-label">Humidity</span>
+                                <span class="meta-value" id="weather-humidity">—</span>
+                            </div>
+                            <div class="weather-pill">
+                                <span class="meta-label">Wind</span>
+                                <span class="meta-value" id="weather-wind">—</span>
+                            </div>
+                            <div class="weather-pill">
+                                <span class="meta-label">Updated</span>
+                                <span class="meta-value" id="weather-updated">—</span>
+                            </div>
+                        </div>
+
+                        <div class="weather-live">
+                            <span class="live-dot" aria-hidden="true"></span>
+                            <span>Live Open-Meteo feed</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Featured Projects -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="section-kicker">Portfolio</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">
+                        A few polished projects that reflect my frontend development,
+                        layout, responsiveness, and conversion-focused design skills.
+                    </p>
+                </div>
+
+                <div class="featured-projects">
+                    <article class="featured-card reveal">
+                        <span class="badge">Featured</span>
+
+                        <div class="featured-card-media">
+                            <img src="Saas-landing -page.png" alt="Screenshot of SaaS Landing Page project"
+                                class="project-image" />
+                        </div>
+
+                        <div class="featured-card-content">
+                            <h3>SaaS Landing Page</h3>
+                            <p>
+                                A modern, conversion-focused landing page for a fictional B2B
+                                SaaS product. Built with strong hierarchy, soft gradients, clean
+                                spacing, and responsive sections that feel premium on every
+                                screen size.
+                            </p>
+
+                            <div class="tech-stack">
+                                <span class="tech-pill">HTML</span>
+                                <span class="tech-pill">CSS</span>
+                                <span class="tech-pill">Responsive UI</span>
+                            </div>
+
+                            <div class="project-buttons">
+                                <a href="https://draftr-inspired-webpage.netlify.app/" class="btn btn-primary"
+                                    target="_blank">Live Demo</a>
+                                <a href="https://github.com/YuganshJoshi/Saas-landing-page"
+                                    class="btn btn-secondary" target=_blank>GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="featured-card reverse reveal reveal-delay-1">
+                        <span class="badge">Featured</span>
+
+                        <div class="featured-card-media">
+                            <img src="Street-Fod-website-image.png" alt="Screenshot of business website project"
+                                class="project-image" />
+                        </div>
+
+                        <div class="featured-card-content">
+                            <h3>Business Website for Street Food Shop</h3>
+                            <p>
+                                A vibrant and engaging website crafted for a street food vendor.
+                                The goal was to showcase signature dishes, highlight authenticity,
+                                and make it easy for customers to find the stall, explore the menu,
+                                and connect through online platforms.
+                            </p>
+                            
+                            <div class="tech-stack">
+                                <span class="tech-pill">HTML</span>
+                                <span class="tech-pill">CSS</span>
+                                <span class="tech-pill">JavaScript</span>
+                                <span class="tech-pill">Mobile-First</span>
+                            </div>
+
+                            <div class="project-buttons">
+                                <a href="https://the-chaapjunction.netlify.app/" class="btn btn-primary"
+                                    target="_blank">Live
+                                    Demo</a>
+                                <a href="https://github.com/YuganshJoshi/street-food-shop-website" target="_blank"
+                                    class="btn btn-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="section-heading smaller reveal">
+                    <h2 class="section-title">More Projects</h2>
+                    <p class="section-subtitle">
+                        Additional work showing layout precision, UI clarity, and modern
+                        frontend execution.
+                    </p>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project-card reveal">
+                        <div class="project-card-image-wrap">
+                            <img src="Portfolio.png" alt="Screenshot of Portfolio Template project"
+                                class="project-card-image" />
+                        </div>
+                        <div class="project-card-content">
+                            <h3>Portfolio Template</h3>
+                            <p>
+                                A clean personal portfolio template designed for freelancers and
+                                creatives who want a sleek, minimal, and professional online
+                                presence.
+                            </p>
+                            <div class="tech-stack">
+                                <span class="tech-pill">HTML</span>
+                                <span class="tech-pill">CSS</span>
+                                <span class="tech-pill">JavaScript</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a href="#" class="btn btn-primary btn-small">Live Demo</a>
+                                <a href="https://github.com/YuganshJoshi/Portfolio" target="_blank"
+                                    class="btn btn-secondary btn-small">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal reveal-delay-2">
+                        <div class="project-card-image-wrap">
+                            <img src="streamin-platform.png" alt="Screenshot of Landing Page Concept project"
+                                class="project-card-image" />
+                        </div>
+                        <div class="project-card-content">
+                            <h3>Landing Page Concept</h3>
+                            <p>
+                                A modern landing page concept focused on strong typography,
+                                trust-building sections, and clean micro-interactions for a
+                                premium product feel.
+                            </p>
+                            <div class="tech-stack">
+                                <span class="tech-pill">HTML</span>
+                                <span class="tech-pill">CSS</span>
+                                <span class="tech-pill">Responsive Design</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a href="https://streaming-platform-inspired-webage.netlify.app/"
+                                    class="btn btn-primary btn-small" target="_blank">Live Demo</a>
+                                <a href="https://github.com/YuganshJoshi/my-stream-ui-demo" target="_blank"
+                                    class="btn btn-secondary btn-small">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="projects-cta reveal">
+                    <div class="cta-banner">
+                        <div>
+                            <span class="section-kicker">Need a website?</span>
+                            <h3>Let’s create something clean, modern, and conversion-focused.</h3>
+                        </div>
+                        <a href="#contact" class="btn btn-primary">Let’s Work Together</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What I Do -->
+        <section class="light-section">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="section-kicker">Services</span>
+                    <h2 class="section-title">What I Do</h2>
+                    <p class="section-subtitle">
+                        I help businesses stand out online through modern frontend design
+                        and thoughtful website experiences.
+                    </p>
+                </div>
+
+                <div class="service-grid">
+                    <article class="info-card reveal">
+                        <div class="card-icon">💻</div>
+                        <h3>Responsive Websites</h3>
+                        <p>
+                            I build websites that look polished and work smoothly across
+                            desktop, tablet, and mobile devices.
+                        </p>
+                    </article>
+
+                    <article class="info-card reveal reveal-delay-1">
+                        <div class="card-icon">🚀</div>
+                        <h3>Landing Pages</h3>
+                        <p>
+                            I create clean, persuasive landing pages designed to build trust
+                            and improve conversion rates.
+                        </p>
+                    </article>
+
+                    <article class="info-card reveal reveal-delay-2">
+                        <div class="card-icon">🎯</div>
+                        <h3>UI/UX Improvements</h3>
+                        <p>
+                            I refine layouts, spacing, hierarchy, and interaction design to
+                            make websites easier and more enjoyable to use.
+                        </p>
+                    </article>
+
+                    <article class="info-card reveal">
+                        <div class="card-icon">⚡</div>
+                        <h3>Performance Optimization</h3>
+                        <p>
+                            I focus on fast loading, clean code structure, and smooth
+                            frontend interactions for a better user experience.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About + Skills -->
+
+        <section id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-content reveal">
+                        <span class="section-kicker">About Me</span>
+                        <h2 class="section-title text-left">Frontend developer building with clarity.</h2>
+                        <p class="about-text">
+                            I’m Yugansh Joshi, a frontend developer from India focused on
+                            building clean, responsive, and professional websites. I enjoy
+                            turning ideas into modern interfaces that not only look good but
+                            also help businesses grow online.
+                        </p>
+                        <p class="about-text">
+                            My approach combines strong layout structure, modern UI styling,
+                            readable code, and careful responsiveness so every site feels
+                            polished on all devices.
+                        </p>
+                    </div>
+
+                    <aside class="skills-panel reveal reveal-delay-1">
+                        <span class="section-kicker">Skills</span>
+                        <h3>Core Frontend Stack</h3>
+
+                        <div class="skills-tags">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Responsive Design</span>
+                            <span class="skill-tag">UI Layout</span>
+                            <span class="skill-tag">Performance Basics</span>
+                            <span class="skill-tag">Clean Code</span>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Me -->
+        <section>
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="section-kicker">Why Choose Me</span>
+                    <h2 class="section-title">Built Around Client Value</h2>
+                    <p class="section-subtitle">
+                        I focus on design quality, responsiveness, and clarity so your
+                        website feels trustworthy and professional.
+                    </p>
+                </div>
+
+                <div class="choose-grid">
+                    <article class="choose-card reveal">
+                        <div class="mini-icon">✨</div>
+                        <h3>Clean & Modern UI</h3>
+                        <p>
+                            Minimal layouts, strong typography, and refined spacing for a
+                            premium presentation.
+                        </p>
+                    </article>
+
+                    <article class="choose-card reveal reveal-delay-1">
+                        <div class="mini-icon">📱</div>
+                        <h3>Fully Responsive</h3>
+                        <p>
+                            Your website will be optimized for desktop, tablet, and mobile
+                            without broken layouts.
+                        </p>
+                    </article>
+
+                    <article class="choose-card reveal reveal-delay-2">
+                        <div class="mini-icon">⏱</div>
+                        <h3>Fast Delivery</h3>
+                        <p>
+                            I value clear workflow, focused execution, and timely progress on
+                            every project.
+                        </p>
+                    </article>
+
+                    <article class="choose-card reveal">
+                        <div class="mini-icon">🤝</div>
+                        <h3>Client-Focused Approach</h3>
+                        <p>
+                            I build with your goals in mind, whether that is trust,
+                            conversion, clarity, or online presence.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+
+        <section id="contact" class="contact-section light-section">
+            <div class="container">
+                <div class="contact-card reveal">
+                    <span class="section-kicker">Contact</span>
+                    <h2>Have a project in mind?</h2>
+                    <p>
+                        Let’s build something amazing together. I create clean, responsive,
+                        and modern websites that help businesses look professional online.
+                    </p>
+
+                    <div class="contact-actions">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yugansh.work13@gmail.com"
+                            class="btn btn-primary">
+                            Email
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">
+                            View My Work
+                        </a>
+                        <a href="https://wa.me/919258879190?text=Let%27s%20work%20together!" class="btn btn-primary">
+                            WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <h3>Yugansh Joshi</h3>
+                <p class="footer-copy">© 2026 All rights reserved.</p>
+            </div>
+
+            <div class="social-icons footer-socials">
+                <a href="https://github.com/YuganshJoshi" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.111.793-.261.793-.577V20.6c-3.338.726-4.034-1.416-4.034-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.744.084-.729.084-.729 1.205.084 1.838 1.237 1.838 1.237 1.07 1.834 2.809 1.304 3.495.997.108-.776.418-1.305.762-1.604-2.665-.304-5.467-1.334-5.467-5.931 0-1.311.468-2.381 1.236-3.221-.124-.304-.536-1.525.117-3.176 0 0 1.008-.323 3.301 1.23A11.53 11.53 0 0 1 12 6.844c1.02.005 2.047.138 3.006.404 2.291-1.553 3.298-1.23 3.298-1.23.653 1.651.241 2.872.118 3.176.77.84 1.236 1.91 1.236 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.103.823 2.223v3.293c0 .319.192.694.8.576C20.565 21.796 24 17.3 24 12 24 5.373 18.627 0 12 0Z" />
+                    </svg>
+                </a>
+
+                <a href="https://www.linkedin.com/in/yugansh-joshi-0387b8365" target="_blank" rel="noopener noreferrer"
+                    aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M20.447 20.452H16.89V14.87c0-1.331-.026-3.043-1.854-3.043-1.854 0-2.138 1.448-2.138 2.947v5.678H9.341V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.369-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286ZM5.337 7.433a2.063 2.063 0 1 1 0-4.126 2.063 2.063 0 0 1 0 4.126ZM7.116 20.452H3.558V9h3.558v11.452ZM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.226.792 24 1.771 24h20.454C23.2 24 24 23.226 24 22.271V1.729C24 .774 23.2 0 22.225 0Z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
