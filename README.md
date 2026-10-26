@@ -3,7 +3,7 @@ A responsive portfolio website showcasing my profile, skills, projects and profe
 
 
 
-Live Deployment :(yuganshjoshi-portfolio.netlify.app)
+Live Deployment (https://chic-monstera-6c1606.netlify.app)
 
 
 D3 — At least two screenshots
