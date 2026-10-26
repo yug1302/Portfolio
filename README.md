@@ -3,7 +3,7 @@ A responsive portfolio website showcasing my profile, skills, projects and profe
 
 
 
-yuganshjoshi-portfolio.netlify.app
+Live Deployment :(yuganshjoshi-portfolio.netlify.app)
 
 
 D3 — At least two screenshots
